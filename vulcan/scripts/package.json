@@ -1,0 +1,32 @@
+{
+  "name": "pra-phantom",
+  "version": "2.3.0",
+  "description": "",
+  "main": "pushResultChecker.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "config": "1.21.0",
+    "lodash.flatten": "^4.4.0",
+    "log4js": "0.6.37",
+    "mysql": "^2.16.0",
+    "node-ssh": "^4.2.2",
+    "spooky": "0.2.5",
+    "tiny-jsonrpc": "2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "prettier": "^1.5.2"
+  }
+}
